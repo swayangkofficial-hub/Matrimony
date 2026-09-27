@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Prem Setu Logo: Sacred Knot Bridge & Entwined Wedding Rings with Heart & Lotus -->
+    <!-- Soft glowing backdrop circle in safe zone -->
+    <path
+        android:pathData="M54,54m-28,0a28,28 0,1,1 56,0a28,28 0,1,1 -56,0"
+        android:fillColor="#15FFFFFF" />
+
+    <!-- Left Ring -->
+    <path
+        android:pathData="M44,56 C38.5,56 34,60.5 34,66 C34,71.5 38.5,76 44,76 C49.5,76 54,71.5 54,66 C54,60.5 49.5,56 44,56 Z M44,72 C40.7,72 38,69.3 38,66 C38,62.7 40.7,60 44,60 C47.3,60 50,62.7 50,66 C50,69.3 47.3,72 44,72 Z"
+        android:fillColor="#FBBF24" />
+
+    <!-- Right Ring Intertwined -->
+    <path
+        android:pathData="M64,56 C58.5,56 54,60.5 54,66 C54,71.5 58.5,76 64,76 C69.5,76 74,71.5 74,66 C74,60.5 69.5,56 64,56 Z M64,72 C60.7,72 58,69.3 58,66 C58,62.7 60.7,60 64,60 C67.3,60 70,62.7 70,66 C70,69.3 67.3,72 64,72 Z"
+        android:fillColor="#FDE68A" />
+
+    <!-- Setu (The Golden Bridge Arc) spanning across -->
+    <path
+        android:pathData="M30,55 C38,40 70,40 78,55"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Glowing Heart & Lotus Crown at the apex (Prem) -->
+    <path
+        android:pathData="M54,34 C51.5,30 46,31 46,36 C46,42 54,46 54,46 C54,46 62,42 62,36 C62,31 56.5,30 54,34 Z"
+        android:fillColor="#FB7185" />
+
+    <!-- Diamond Sparkle on top -->
+    <path
+        android:pathData="M54,23 L56,27 L60,27 L57,30 L58,34 L54,31 L50,34 L51,30 L48,27 L52,27 Z"
+        android:fillColor="#FFFBEB" />
+</vector>

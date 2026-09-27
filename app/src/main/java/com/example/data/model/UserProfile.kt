@@ -1,0 +1,52 @@
+package com.example.data.model
+
+import com.google.firebase.firestore.IgnoreExtraProperties
+import com.google.firebase.firestore.PropertyName
+
+@IgnoreExtraProperties
+data class UserProfile(
+    val id: String = "",
+    val name: String = "",
+    val age: Int = 0,
+    val gender: String = "",
+    val city: String = "",
+    val state: String = "",
+    val profession: String = "",
+    val education: String = "",
+    val company: String = "",
+    val height: String = "",
+    val religion: String = "",
+    val community: String = "",
+    val motherTongue: String = "",
+    val bio: String = "",
+    val profileCreatedFor: String = "Myself",
+    val trustScore: Int = 87,
+    val profileHealthScore: Int = 86,
+    val familyMode: String = "FAMILY_ASSISTED",
+    val explorationMode: String = "BALANCED",
+    val visibilityMode: String = "PUBLIC",
+    val womenExtraPrivacy: Boolean = false,
+    val membershipTier: String = "Assist Plan",
+    val isMatchmakingPaused: Boolean = false,
+    val phone: String = "",
+    val email: String = "",
+    val showPhoneInSearch: Boolean = false,
+    val showLocationInSearch: Boolean = true,
+    val showEmailInSearch: Boolean = false,
+    val allowSearchIndexing: Boolean = true,
+    val isIdentityVerified: Boolean = true,
+    val isPhotoVerified: Boolean = true,
+    val isFamilyApproved: Boolean = true,
+    val avatarUrl: String = "",
+    val photoUrls: List<String> = emptyList(),
+    val familyBackground: String = "",
+    val livingArrangement: String = "",
+    val careerExpectation: String = "",
+    val childrenTimeline: String = "",
+    val familyValues: String = "Moderate",
+    val educationLevel: String = "Master's / Postgraduate",
+    val dietaryPreference: String = "Vegetarian",
+    val blockedUsers: List<String> = emptyList(),
+    val createdAt: Long = System.currentTimeMillis(),
+    val updatedAt: Long = System.currentTimeMillis()
+)

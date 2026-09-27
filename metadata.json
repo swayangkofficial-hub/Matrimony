@@ -1,0 +1,6 @@
+{
+  "name": "Prem Setu",
+  "description": "Digital Matrimonial Relationship Management Platform with verified compatibility, family connect, matchmaker assistance, and safe journey tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
